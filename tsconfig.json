@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "baseUrl": "src",
+        "outDir": "game",
+        "types": ["love-typescript-definitions"]
+    },
+    "luaTarget": "JIT",
+    "luaLibImport": "require"
+}

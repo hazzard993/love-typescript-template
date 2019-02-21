@@ -1,0 +1,18 @@
+{
+  "name": "love-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lovec game",
+    "build": "tstl -p tsconfig.json",
+    "watch": "tstl -w -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "love-typescript-definitions": "^0.4.4",
+    "typescript-to-lua": "^0.15.1"
+  }
+}
