@@ -9,7 +9,8 @@ On the command line, `lovec` should launch LÖVE 2D. Follow [this guide](https:/
 All ready? Run the commands below.
 
 ```sh
-git clone https://github.com/hazzard993/love-typescript-boilerplate
+git clone https://github.com/hazzard993/love-typescript-boilerplate my-project
+cd my-project
 npm install
 npm run build
 npm start
