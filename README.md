@@ -1,8 +1,12 @@
 # LÖVE 2D TypeScript Project Boilerplate
 
-To get a head start into a LÖVE 2D TypeScript Project, run the commands below.
+To get a head start into a LÖVE 2D TypeScript Project, you'll need to be able to run the commands below.
 
-You'll need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/) and [NodeJS](https://nodejs.org/en/) to run these commands.
+To do that you need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/) and [NodeJS](https://nodejs.org/en/) to run them.
+
+On the command line, `lovec` should launch LÖVE 2D. Follow [this guide](https://love2d.org/wiki/PATH) if you need to set this up.
+
+All ready? Run the commands below.
 
 ```sh
 git clone https://github.com/hazzard993/love-typescript-boilerplate
@@ -11,7 +15,25 @@ npm run build
 npm start
 ```
 
+Your project should now be running!
+
+## Making changes
+
+1. Modify the `.ts` files under `src` or create some new ones
+2. Execute `npm run build` to build the `.lua` files
+3. Execute `npm start` to run your project again
+4. Head back to step 1 and make your changes again
+
+Alternatively, you can run `npm run watch` to automatically re-transpile files you modify, keep another terminal handy to run `npm start` when you want to run the project.
+
+## Links
+- [LÖVE 2D Wiki](https://love2d.org/wiki/Main_Page)
+- [LÖVE 2D - Getting Started](https://love2d.org/wiki/Getting_Started)
+- [TypeScript Wiki](https://github.com/Microsoft/TypeScript/wiki)
+
 ## Commands
+
+This is a list of commands you can use with your project.
 
 | Command | What it does |
 | ------- | ------------ |
