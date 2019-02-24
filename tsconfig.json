@@ -3,7 +3,11 @@
         "rootDir": "src",
         "baseUrl": "src",
         "outDir": "game",
-        "types": ["love-typescript-definitions"]
+        "lib": ["es6"],
+        "types": [
+            "love-typescript-definitions",
+            "types-lua/jit"
+        ]
     },
     "luaTarget": "JIT",
     "luaLibImport": "require"
