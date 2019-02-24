@@ -12,9 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "love-typescript-definitions": "^0.5.3",
     "typescript-to-lua": "^0.15.2"
   },
-  "dependencies": {
-    "love-typescript-definitions": "^0.5.3"
-  }
+  "dependencies": {}
 }
