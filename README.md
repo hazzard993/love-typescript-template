@@ -2,9 +2,9 @@
 
 To get a head start into a LÖVE 2D TypeScript Project, you'll need to be able to run the commands below.
 
-To do that you need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/) and [NodeJS](https://nodejs.org/en/) to run them.
+To do that you need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/), [Busted](https://olivinelabs.com/busted/) and [NodeJS](https://nodejs.org/en/) to run them.
 
-On the command line, `lovec` should launch LÖVE 2D. Follow [this guide](https://love2d.org/wiki/PATH) if you need to set this up.
+On the command line, `lovec` should launch LÖVE 2D and `busted` should launch Busted. Follow [this guide](https://love2d.org/wiki/PATH) if you need to set up LÖVE 2D.
 
 All ready? Run the commands below.
 
@@ -42,3 +42,4 @@ This is a list of commands you can use with your project.
 | `npm run build` | Builds all `.lua` files |
 | `npm start` | Starts the game! :video_game: |
 | `npm run watch` | Automatically compiles `.ts` files as they are changed |
+| `npm run test` | Runs tests via Busted |

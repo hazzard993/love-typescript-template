@@ -9,6 +9,9 @@
             "types-lua/jit"
         ]
     },
+    "exclude": [
+        "src/spec/**"
+    ],
     "luaTarget": "JIT",
     "luaLibImport": "require"
 }

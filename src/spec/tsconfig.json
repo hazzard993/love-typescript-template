@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "../../game",
+        "rootDir": "..",
+        "baseUrl": "..",
+        "types": [
+            "types-lua/5.1",
+            "busted-tstl"
+        ]
+    }
+}

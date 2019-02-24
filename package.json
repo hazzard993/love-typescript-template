@@ -7,12 +7,13 @@
     "start": "lovec game",
     "build": "tstl -p tsconfig.json",
     "watch": "tstl -w -p tsconfig.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tstl -p src/spec/ && busted -C game"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "busted-tstl": "0.0.4",
     "love-typescript-definitions": "^0.5.3",
     "typescript-to-lua": "^0.15.2"
   }
