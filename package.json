@@ -11,9 +11,9 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "love-typescript-definitions": "^0.5.3",
     "typescript-to-lua": "^0.15.2"
-  },
-  "dependencies": {}
+  }
 }
