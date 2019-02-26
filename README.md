@@ -12,7 +12,6 @@ All ready? Run the commands below.
 git clone https://github.com/hazzard993/love-typescript-boilerplate my-project
 cd my-project
 npm install
-npm install   # Again
 npm run build
 npm start
 ```
