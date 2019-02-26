@@ -1,5 +1,7 @@
 # LÖVE 2D TypeScript Project Boilerplate
 
+[![Build Status](https://travis-ci.org/hazzard993/love-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/hazzard993/love-typescript-boilerplate)
+
 To get a head start into a LÖVE 2D TypeScript Project, you'll need to be able to run the commands below.
 
 To do that you need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/) and [NodeJS](https://nodejs.org/en/) to run them.
