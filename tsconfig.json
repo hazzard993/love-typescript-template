@@ -6,7 +6,7 @@
         "lib": ["es6"],
         "types": [
             "love-typescript-definitions",
-            "types-lua/jit"
+            "lua-types/jit"
         ]
     },
     "luaTarget": "JIT",
