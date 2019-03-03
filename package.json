@@ -13,7 +13,7 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "love-typescript-definitions": "^0.5.4",
+    "love-typescript-definitions": "^0.9.1",
     "typescript-to-lua": "^0.15.2"
   }
 }
