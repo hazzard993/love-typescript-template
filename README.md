@@ -20,6 +20,8 @@ npm start
 
 Your project should now be running!
 
+Use `code .` to open up the project using VS Code (or another editor of your choice).
+
 ## Making changes
 
 1. Modify the `.ts` files under `src` or create some new ones
