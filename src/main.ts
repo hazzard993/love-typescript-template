@@ -12,4 +12,6 @@ function draw() {
     love.graphics.print(greeting, 400, 300);
 }
 
-[love.load, love.update, love.draw] = [load, update, draw];
+love.load = load;
+love.update = update;
+love.draw = draw;
