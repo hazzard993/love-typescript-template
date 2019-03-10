@@ -26,11 +26,10 @@ If using VS Code, you can use `Ctrl+Shift+B` to start the `npm: build-and-start`
 ## Making changes
 
 1. Modify the `.ts` files under `src` or create some new ones
-2. Execute `npm run build` to build the `.lua` files
-3. Execute `npm start` to run your project again
-4. Head back to step 1 and make your changes again
+2. Execute `npm run build-and-start` to build the `.lua` files and run the project
+3. Head back to step 1 and make your changes again
 
-Alternatively, you can run `npm run watch` to automatically re-transpile files you modify, keep another terminal handy to run `npm start` when you want to run the project.
+Alternatively, you can run `npm run watch` to automatically re-transpile files you modify.
 
 ## Links
 - [LÖVE 2D Wiki](https://love2d.org/wiki/Main_Page)
@@ -46,4 +45,5 @@ This is a list of commands you can use with your project.
 | `npm install` | Installs the dependencies of the project |
 | `npm run build` | Builds all `.lua` files |
 | `npm start` | Starts the game! :video_game: |
+| `npm run build-and-watch` | Builds all `.lua` files and starts the game |
 | `npm run watch` | Automatically compiles `.ts` files as they are changed |
