@@ -14,13 +14,14 @@ All ready? Run the commands below.
 git clone https://github.com/hazzard993/love-typescript-boilerplate my-project
 cd my-project
 npm install
-npm run build
-npm start
+npm run build-and-start
 ```
 
 Your project should now be running!
 
 Use `code .` to open up the project using VS Code (or another editor of your choice).
+
+If using VS Code, you can use `Ctrl+Shift+B` to start the `npm: build-and-start` task (Use `Terminal > Configure Default Build Task` to make this trigger when you press `Ctrl+Shift+B`).
 
 ## Making changes
 
