@@ -1,3 +1,4 @@
+/** @noSelfInFile */
 import { greeting } from "greeting";
 
 function load(arg: table) {
