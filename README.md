@@ -45,5 +45,9 @@ This is a list of commands you can use with your project.
 | `npm install` | Installs the dependencies of the project |
 | `npm run build` | Builds all `.lua` files |
 | `npm start` | Starts the game! :video_game: |
+<<<<<<< HEAD
 | `npm run build-and-start` | Builds all `.lua` files and starts the game |
+=======
+| `npm run build-and-watch` | Builds all `.lua` files and starts the game |
+>>>>>>> 7558ef011ea11a9ef668d9c790ae13288b1bba3f
 | `npm run watch` | Automatically compiles `.ts` files as they are changed |
