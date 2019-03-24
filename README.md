@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/hazzard993/love-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/hazzard993/love-typescript-boilerplate)
 
+A boilerplate to kick off a LÖVE 2D TypeScript Project. Uses [love-typescript-definitions](https://github.com/hazzard993/love-typescript-definitions) and [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
+
 To get a head start into a LÖVE 2D TypeScript Project, you'll need to be able to run the commands below.
 
 To do that you need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/) and [NodeJS](https://nodejs.org/en/) to run them.
@@ -18,6 +20,13 @@ npm run build-and-start
 ```
 
 Your project should now be running!
+
+After this be sure to use these commands to point to your repo.
+
+```sh
+git remote remove origin
+git remote add origin <url/path to your repo>
+```
 
 Use `code .` to open up the project using VS Code (or another editor of your choice).
 
