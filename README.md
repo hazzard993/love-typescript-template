@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/hazzard993/love-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/hazzard993/love-typescript-boilerplate)
 
+A boilerplate to kick off a LÖVE 2D TypeScript Project. Uses [love-typescript-definitions](https://github.com/hazzard993/love-typescript-definitions) and [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
+
 To get a head start into a LÖVE 2D TypeScript Project, you'll need to be able to run the commands below.
 
 To do that you need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/) and [NodeJS](https://nodejs.org/en/) to run them.
@@ -18,6 +20,13 @@ npm run build-and-start
 ```
 
 Your project should now be running!
+
+After this be sure to use these commands to point to your repo.
+
+```sh
+git remote remove origin
+git remote add origin <url/path to your repo>
+```
 
 Press `E` to cause an error in the program. The stack trace will point straight to the TypeScript file and the line that caused the error!
 
@@ -47,5 +56,5 @@ This is a list of commands you can use with your project.
 | `npm install` | Installs the dependencies of the project |
 | `npm run build` | Builds all `.lua` files |
 | `npm start` | Starts the game! :video_game: |
-| `npm run build-and-watch` | Builds all `.lua` files and starts the game |
+| `npm run build-and-start` | Builds all `.lua` files and starts the game |
 | `npm run watch` | Automatically compiles `.ts` files as they are changed |
