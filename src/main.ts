@@ -1,18 +1,16 @@
-/** @noSelfInFile */
 import { greeting } from "greeting";
 
-function load(arg: table) {
+love.load = (arg: table) => {
     // Body
-}
+};
 
-function update(delta: number) {
-    // Body
-}
+love.update = (delta: number) => {
+    if (love.keyboard.isDown("e")) {
+        // Should report an error at main.ts:10:
+        throw "ERROR";
+    }
+};
 
-function draw() {
+love.draw = () => {
     love.graphics.print(greeting, 400, 300);
-}
-
-love.load = load;
-love.update = update;
-love.draw = draw;
+};

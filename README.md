@@ -19,6 +19,8 @@ npm run build-and-start
 
 Your project should now be running!
 
+Press `E` to cause an error in the program. The stack trace will point straight to the TypeScript file and the line that caused the error!
+
 Use `code .` to open up the project using VS Code (or another editor of your choice).
 
 If using VS Code, you can use `Ctrl+Shift+B` to start the `npm: build-and-start` task (Use `Terminal > Configure Default Build Task` to make this trigger when you press `Ctrl+Shift+B`).
@@ -45,9 +47,5 @@ This is a list of commands you can use with your project.
 | `npm install` | Installs the dependencies of the project |
 | `npm run build` | Builds all `.lua` files |
 | `npm start` | Starts the game! :video_game: |
-<<<<<<< HEAD
-| `npm run build-and-start` | Builds all `.lua` files and starts the game |
-=======
 | `npm run build-and-watch` | Builds all `.lua` files and starts the game |
->>>>>>> 7558ef011ea11a9ef668d9c790ae13288b1bba3f
 | `npm run watch` | Automatically compiles `.ts` files as they are changed |

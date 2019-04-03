@@ -10,5 +10,7 @@
         ]
     },
     "luaTarget": "JIT",
-    "luaLibImport": "require"
+    "luaLibImport": "require",
+    "sourceMap": true,
+    "sourceMapTraceback": true
 }
