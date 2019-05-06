@@ -7,10 +7,12 @@
         "types": [
             "love-typescript-definitions",
             "lua-types/jit"
-        ]
+        ],
+        "sourceMap": true
     },
-    "luaTarget": "JIT",
-    "luaLibImport": "require",
-    "sourceMap": true,
-    "sourceMapTraceback": true
+    "tstl": {
+        "luaTarget": "JIT",
+        "luaLibImport": "require",
+        "sourceMapTraceback": true
+    }
 }
