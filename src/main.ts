@@ -1,6 +1,6 @@
 import { greeting } from "greeting";
 
-love.load = (arg: table) => {
+love.load = (arg: string[]) => {
     // Body
 };
 

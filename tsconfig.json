@@ -7,8 +7,7 @@
         "types": [
             "love-typescript-definitions",
             "lua-types/jit"
-        ],
-        "sourceMap": true
+        ]
     },
     "tstl": {
         "luaTarget": "JIT",
