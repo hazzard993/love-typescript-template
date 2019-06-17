@@ -13,8 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "love-typescript-definitions": "^0.11.1",
-    "typescript-to-lua": "^0.21.1"
+    "love-typescript-definitions": "^0.11.2",
+    "typescript-to-lua": "^0.22.1"
   },
   "dependencies": {}
 }
