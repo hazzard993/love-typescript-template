@@ -1,25 +1,24 @@
-# LÖVE 2D TypeScript Project Boilerplate
+# LÖVE 2D TypeScript Project Template
 
-[![Build Status](https://travis-ci.org/hazzard993/love-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/hazzard993/love-typescript-boilerplate)
+[![Build Status](https://travis-ci.org/hazzard993/love-typescript-template.svg?branch=master)](https://travis-ci.org/hazzard993/love-typescript-template)
 
-A boilerplate to kick off a LÖVE 2D TypeScript Project. Uses [love-typescript-definitions](https://github.com/hazzard993/love-typescript-definitions) and [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
+A template to kick off a LÖVE 2D TypeScript Project. Uses [love-typescript-definitions](https://github.com/hazzard993/love-typescript-definitions) and [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
 
-To get a head start into a LÖVE 2D TypeScript Project, you'll need to be able to run the commands below.
+Click `Use this template` to create a new repo based off this template.
 
-To do that you need [Git](https://git-scm.com/downloads), [LÖVE 2D](https://love2d.org/) and [NodeJS](https://nodejs.org/en/) to run them.
+You'll need the following programs to run this project:
+- [Git](https://git-scm.com/downloads)
+- [LÖVE 2D](https://love2d.org/)
+- and [NodeJS](https://nodejs.org/en/) 
 
-On the command line, `lovec` should launch LÖVE 2D. Follow [this guide](https://love2d.org/wiki/PATH) if you need to set this up.
+On the command line, `love` should launch LÖVE 2D. Follow [this guide](https://love2d.org/wiki/PATH) if you need to set this up.
 
-All ready? Run the commands below.
+If you're not using `Use this template` you can use the commands below to clone, install and start the project.
 
 ```sh
-git clone https://github.com/hazzard993/love-typescript-boilerplate my-project
+git clone https://github.com/hazzard993/love-typescript-template my-project
 cd my-project
-npm install
-npm run build-and-start
 ```
-
-Your project should now be running!
 
 After this be sure to use these commands to point to your repo.
 
@@ -28,7 +27,14 @@ git remote remove origin
 git remote add origin <url/path to your repo>
 ```
 
-Press `E` to cause an error in the program. The stack trace will point straight to the TypeScript file and the line that caused the error!
+To install and run the project, use these following commands:
+
+```sh
+npm install
+npm run build-and-start
+```
+
+Your project should be running after those commands!
 
 Use `code .` to open up the project using VS Code (or another editor of your choice).
 
