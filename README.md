@@ -13,14 +13,14 @@ You'll need the following programs to run this project:
 
 On the command line, `love` should launch LÖVE 2D. Follow [this guide](https://love2d.org/wiki/PATH) if you need to set this up.
 
-If you're not using `Use this template` you can use the commands below to clone, install and start the project.
+If you're not using `Use this template` you can use the commands below to clone the project.
 
 ```sh
 git clone https://github.com/hazzard993/love-typescript-template my-project
 cd my-project
 ```
 
-After this be sure to use these commands to point to your repo.
+After this be sure to use these commands to point to where you want your repo to go.
 
 ```sh
 git remote remove origin
