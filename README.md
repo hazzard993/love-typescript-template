@@ -1,6 +1,6 @@
 # LÖVE 2D TypeScript Project Template
 
-[![Build Status](https://travis-ci.org/hazzard993/love-typescript-template.svg?branch=master)](https://travis-ci.org/hazzard993/love-typescript-template)
+[![Build Status](https://travis-ci.org/hazzard993/love-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/hazzard993/love-typescript-boilerplate)
 
 A template to kick off a LÖVE 2D TypeScript Project. Uses [love-typescript-definitions](https://github.com/hazzard993/love-typescript-definitions) and [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
 
