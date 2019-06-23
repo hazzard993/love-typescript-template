@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "love game",
+    "start": "love game --console",
     "build": "tstl -p tsconfig.json",
     "build-and-start": "npm run build && npm start",
     "watch": "tstl -w -p tsconfig.json",
