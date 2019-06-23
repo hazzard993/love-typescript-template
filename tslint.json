@@ -5,7 +5,11 @@
     ],
     "jsRules": {},
     "rules": {
-        "no-string-throw": false
+        "no-string-throw": false,
+        "arrow-parens": false,
+        "array-type": [true, "array-simple"],
+        "no-empty": false,
+        "interface-name": false
     },
     "rulesDirectory": []
 }
