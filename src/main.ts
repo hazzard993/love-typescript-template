@@ -1,16 +1,7 @@
-import { greeting } from "greeting";
+love.load = args => {};
 
-love.load = (arg: string[]) => {
-    // Body
-};
-
-love.update = (delta: number) => {
-    if (love.keyboard.isDown("e")) {
-        // Should report an error at main.ts:10:
-        throw "ERROR";
-    }
-};
+love.update = dt => {};
 
 love.draw = () => {
-    love.graphics.print(greeting, 400, 300);
+    love.graphics.print("Hello World!", 400, 300);
 };
