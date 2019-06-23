@@ -1,9 +1,8 @@
 {
     "compilerOptions": {
         "rootDir": "src",
-        "baseUrl": "src",
         "outDir": "game",
-        "lib": ["es6"],
+        "lib": ["esnext"],
         "types": [
             "love-typescript-definitions",
             "lua-types/jit"
