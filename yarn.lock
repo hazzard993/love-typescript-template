@@ -3,16 +3,9 @@
 
 
 love-typescript-definitions@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.12.0.tgz#c865be3c96d204e233ca207bbf195e7796db4c76"
-  integrity sha512-6PxPCMvb96mg6sNDGYMUzNRsRF/HfeiMYy9bBbmq3c46hlCIrMglYZc4gqyBTFsTU+9tRvZgdnlEMM5tJN8B/g==
-  dependencies:
-    lua-types "^2.5.1"
-
-lua-types@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/lua-types/-/lua-types-2.5.1.tgz#57e491739d40c0c18f5d7b84fd0ed67b999b605a"
-  integrity sha512-Rkxfo0in965tniAdCoUTK+iv1B3MrnS5KWbdm5+P+P5gWCUUYbFzkk4tcuu+qMVw4hrLBzyvYXWnLoQxcvnHJg==
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.12.1.tgz#77ac5622afec998f713c055564ce4b2dc528eb75"
+  integrity sha512-OiSGpLR1BqLvsOb4bZeslfARXOTXNidVvnD8RPoGC51T8icOwla3bbVNr1mVyCqle8sWpupyZCW7zyLu5qHAOg==
 
 path-parse@^1.0.6:
   version "1.0.6"
