@@ -16,5 +16,7 @@
     "love-typescript-definitions": "^0.12.0",
     "typescript-to-lua": "^0.22.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lua-types": "^2.5.2"
+  }
 }

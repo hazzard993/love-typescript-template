@@ -7,6 +7,11 @@ love-typescript-definitions@^0.12.0:
   resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.12.1.tgz#77ac5622afec998f713c055564ce4b2dc528eb75"
   integrity sha512-OiSGpLR1BqLvsOb4bZeslfARXOTXNidVvnD8RPoGC51T8icOwla3bbVNr1mVyCqle8sWpupyZCW7zyLu5qHAOg==
 
+lua-types@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/lua-types/-/lua-types-2.5.2.tgz#0685093d40bf0a5ba9d1e7c49d53033a0d5dcbd7"
+  integrity sha512-JaVECSBG5z/BheVJOsPxEmrVDvTEnnuOlZuDHuktEWVq6+0xxq1rR3W7fJP+tKfXYtVjsZxMZhHSTd/vesP6Qw==
+
 path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
