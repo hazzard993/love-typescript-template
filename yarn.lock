@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-love-typescript-definitions@^0.12.0:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.12.1.tgz#77ac5622afec998f713c055564ce4b2dc528eb75"
-  integrity sha512-OiSGpLR1BqLvsOb4bZeslfARXOTXNidVvnD8RPoGC51T8icOwla3bbVNr1mVyCqle8sWpupyZCW7zyLu5qHAOg==
+love-typescript-definitions@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.13.0.tgz#429aa25e94220230f94b58de4de4f91279fd7bdd"
+  integrity sha512-UfVJUxZmIVuHWE7BxTezTXRVCPEKeVOrJ6zDI2KeT0+5JORHW8tQl6ahMzjOsG62rP0rersSLliNqnsAGiHtOg==
 
 lua-types@^2.5.2:
   version "2.5.2"
@@ -29,16 +29,16 @@ source-map@^0.7.3:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
-typescript-to-lua@^0.22.1:
-  version "0.22.1"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-0.22.1.tgz#796df77dae9108d7a265697e746dce31e9663728"
-  integrity sha512-mRKKnFdTftqzmw/7p/BjuL48opgUDgDTPdnOoy3ikVdxPm+i5/yhd5YePLsrIALT9PYSoeKAXJbSOcXoy0d/AA==
+typescript-to-lua@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-0.23.0.tgz#311c735f2fbfed2ffba48fe529213e6c922997f6"
+  integrity sha512-Iq0a2X18BwyNddtNwxaKwpB4JyrKakbJxPNwUbGIwxq07WiWAkmqifGrx6owi6m9/y7cKQhn5Ivj6BYWTpc3sQ==
   dependencies:
     resolve "^1.11.0"
     source-map "^0.7.3"
     typescript "^3.5.2"
 
 typescript@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
-  integrity sha512-7KxJovlYhTX5RaRbUdkAXN1KUZ8PwWlTzQdHV6xNqvuFOs7+WBo10TQUqT19Q/Jz2hk5v9TQDIhyLhhJY4p5AA==
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
+  integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
