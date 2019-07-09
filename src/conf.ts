@@ -6,6 +6,6 @@
 package.path += ";../node_modules/?/init.lua";
 package.path += ";../node_modules/?/?.lua";
 
-love.conf = (t: Conf) => {
+love.conf = t => {
     t.window.title = "TypeScript Project";
 };
