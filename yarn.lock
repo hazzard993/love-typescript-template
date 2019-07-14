@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-love-typescript-definitions@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.13.0.tgz#429aa25e94220230f94b58de4de4f91279fd7bdd"
-  integrity sha512-UfVJUxZmIVuHWE7BxTezTXRVCPEKeVOrJ6zDI2KeT0+5JORHW8tQl6ahMzjOsG62rP0rersSLliNqnsAGiHtOg==
+love-typescript-definitions@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.14.0.tgz#14271be30dd5e50418092c88d7939028013d80ad"
+  integrity sha512-BrGY+NJQdrv0Bu0UyP0Vv+Y8pRV5r59jYtVpSLRZAA9CEriEETacbNZ9Wvxab2N/5r0yIFMZRVk38YAWnA6Qbg==
 
 lua-types@^2.5.2:
   version "2.5.2"
