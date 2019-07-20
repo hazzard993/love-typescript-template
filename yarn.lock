@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-love-typescript-definitions@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.14.0.tgz#14271be30dd5e50418092c88d7939028013d80ad"
-  integrity sha512-BrGY+NJQdrv0Bu0UyP0Vv+Y8pRV5r59jYtVpSLRZAA9CEriEETacbNZ9Wvxab2N/5r0yIFMZRVk38YAWnA6Qbg==
+love-typescript-definitions@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.15.0.tgz#565fa7b47cb2d1eec7e9898e3611a6b72c1135fc"
+  integrity sha512-ylBmvbP5i/XzBbXKw3h5998tVlLl1Ou+p4qLXPA9mK9P1nL6WHr3kj24NnLS+0WtEiHLnMf8PyGpEO+3aevRKQ==
 
 lua-types@^2.5.2:
   version "2.5.2"
@@ -29,10 +29,10 @@ source-map@^0.7.3:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
-typescript-to-lua@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-0.23.0.tgz#311c735f2fbfed2ffba48fe529213e6c922997f6"
-  integrity sha512-Iq0a2X18BwyNddtNwxaKwpB4JyrKakbJxPNwUbGIwxq07WiWAkmqifGrx6owi6m9/y7cKQhn5Ivj6BYWTpc3sQ==
+typescript-to-lua@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-0.24.0.tgz#060e8bf87c421412fc423287305c269c209677ac"
+  integrity sha512-HC5dA7qXDgHEA0opZ7bmkOdzDgit/xmBKKbT+DKGk3IOQvd2brGzgQ5If0r1H24hkz6piuGzd0b/63/tUgWeyQ==
   dependencies:
     resolve "^1.11.0"
     source-map "^0.7.3"
