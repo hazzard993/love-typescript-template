@@ -1,21 +1,16 @@
 {
   "name": "love-typescript-boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "love game --console",
     "build": "tstl -p tsconfig.json",
-    "build-and-start": "npm run build && npm start",
-    "watch": "tstl -w -p tsconfig.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-and-start": "yarn build && yarn start",
+    "watch": "tstl -w -p tsconfig.json"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "love-typescript-definitions": "^0.15.0",
     "lua-types": "^2.5.2",
-    "typescript-to-lua": "^0.24.0"
-  },
-  "dependencies": {}
+    "typescript-to-lua": "^0.28.1"
+  }
 }
