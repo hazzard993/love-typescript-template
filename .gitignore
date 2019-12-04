@@ -1,5 +1,3 @@
 node_modules/
-!game/
-game/*
-!game/img/
-!game/snd/
+game/
+yarn-error.log

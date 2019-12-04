@@ -1,15 +1,13 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended"
-    ],
-    "jsRules": {},
-    "rules": {
-        "no-string-throw": false,
-        "arrow-parens": false,
-        "array-type": [true, "array-simple"],
-        "no-empty": false,
-        "interface-name": false
-    },
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "no-string-throw": false,
+    "arrow-parens": false,
+    "array-type": [true, "array-simple"],
+    "no-empty": false,
+    "interface-name": false
+  },
+  "rulesDirectory": []
 }
