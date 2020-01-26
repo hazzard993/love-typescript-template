@@ -23,23 +23,23 @@ Importable files can be placed in the `res/` directory and referenced them with 
 
 e.g.
 
-- new file: `res/input.txt`
-- main.ts: `love.filesystem.read("res/input.txt")`
+-   new file: `res/input.txt`
+-   main.ts: `love.filesystem.read("res/input.txt")`
 
 ### Notes
 
-- It is entirely possible to use existing Lua libraries for a LÖVE 2D project within your TypeScript code
-- [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) preserves some `esnext` behaviour. This means you can use `Array.map` and `new Error(...)`
-- GitHub projects can be imported and be tracked as a dependency with `yarn add [username]/[repo]`
-- The `copyfiles` command line can be used to copy other needed files into the `game/` directory to compile a game (see scripts)
-- Index arrays at 0
-- Lua does not iterate over sparse arrays (arrays with empty values in the middle of them)
+-   It is entirely possible to use existing Lua libraries for a LÖVE 2D project within your TypeScript code
+-   [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) preserves some `esnext` behaviour. This means you can use `Array.map` and `new Error(...)`
+-   GitHub projects can be imported and be tracked as a dependency with `yarn add [username]/[repo]`
+-   The `copyfiles` command line can be used to copy other needed files into the `game/` directory to compile a game (see scripts)
+-   Index arrays at 0
+-   Lua does not iterate over sparse arrays (arrays with empty values in the middle of them)
 
 ### Links
 
-- [TypeScriptToLua Wiki](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki)
-  - [Writing Declarations](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Writing-Declarations)
-  - [Compiler Directives](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Compiler-Directives)
-- [LÖVE 2D Wiki](https://love2d.org/wiki/Main_Page)
-- [LÖVE 2D - Getting Started](https://love2d.org/wiki/Getting_Started)
-- [TypeScript Wiki](https://github.com/Microsoft/TypeScript/wiki)
+-   [TypeScriptToLua Wiki](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki)
+    -   [Writing Declarations](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Writing-Declarations)
+    -   [Compiler Directives](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Compiler-Directives)
+-   [LÖVE 2D Wiki](https://love2d.org/wiki/Main_Page)
+-   [LÖVE 2D - Getting Started](https://love2d.org/wiki/Getting_Started)
+-   [TypeScript Wiki](https://github.com/Microsoft/TypeScript/wiki)

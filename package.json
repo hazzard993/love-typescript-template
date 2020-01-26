@@ -1,28 +1,28 @@
 {
   "name": "love-typescript-boilerplate",
   "license": "MIT",
-  "config": {
-    "prettier": {
-      "glob": "**/*.{js,ts,yml,json,md}"
-    }
-  },
+  "prettierGlob": "**/*.{js,ts,ym,md}",
   "scripts": {
     "start": "love game --console",
-    "build": "yarn build:tstl && yarn build:copyfiles",
+    "build": "yarn build:tstl && yarn build:copy",
     "build:tstl": "tstl -p tsconfig.json",
-    "build:copyfiles": "copyfiles res/* game",
-    "watch": "tstl -w -p tsconfig.json",
-    "lint:prettier": "prettier --check \"$npm_package_config_prettier_glob\"",
-    "fix:prettier": "cross-var prettier --check --write \"$npm_package_config_prettier_glob\""
+    "build:copy": "copyfiles res/* game",
+    "build:watch": "tstl -w -p tsconfig.json",
+    "lint:prettier": "cross-var prettier \"$npm_package_prettierGlob\" --check",
+    "fix:prettier": "cross-var prettier \"$npm_package_prettierGlob\" --check --write"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "endOfLine": "auto"
   },
   "devDependencies": {
-    "@types/prettier": "^1.19.0",
     "copyfiles": "^2.1.1",
     "cross-var": "^1.1.0",
     "love-typescript-definitions": "^0.17.0",
     "lua-types": "^2.6.2",
     "prettier": "^1.19.1",
-    "ts-node": "^8.5.4",
-    "typescript-to-lua": "^0.29.1"
+    "typescript-to-lua": "^0.31.0"
   }
 }
