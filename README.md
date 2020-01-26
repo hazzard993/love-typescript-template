@@ -4,9 +4,9 @@ A template LÖVE 2D TypeScript Project made possible with [TypeScriptToLua](http
 
 Requires [Yarn](https://www.npmjs.com/package/yarn) and [LÖVE 2D](https://love2d.org/).
 
-> `love` should be accessible from the command line. [This guide](https://love2d.org/wiki/PATH) specifies how to do that
+You can click `Use this template` to clone this repo, or download it as a zip.
 
-You can use `Use this template` to clone this repo, or download it as a zip.
+> `love` should be accessible from the command line. [This guide](https://love2d.org/wiki/PATH) specifies how to do that
 
 ```sh
 yarn                # install dependencies
@@ -34,6 +34,7 @@ e.g.
 -   The `copyfiles` command line can be used to copy other needed files into the `game/` directory to compile a game (see scripts)
 -   Index arrays at 0
 -   Lua does not iterate over sparse arrays (arrays with empty values in the middle of them)
+-   love-typescript-definitions comes with documentation accessible at `love-typescript-definitions/docs/index.html`
 
 ### Links
 
