@@ -36,8 +36,8 @@
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
     "import-sort-style-module": "^6.0.0",
-    "love-typescript-definitions": "^0.18.0",
-    "lua-types": "^2.6.2",
+    "love-typescript-definitions": "^0.19.0",
+    "lua-types": "^2.7.0",
     "prettier": "^2.0.2",
     "prettier-plugin-import-sort": "^0.0.4",
     "typescript-to-lua": "^0.32.0"

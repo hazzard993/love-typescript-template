@@ -1825,10 +1825,10 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-love-typescript-definitions@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.18.0.tgz#0ee3f411747fda7f3d481413330e4fc28e1f03b7"
-  integrity sha512-8ufqGpCALUP8V8iPWLMH8w+EdYIy4b3DiVYo4Cn7Z2hEcTBSlDj0GxZkw+X0mVWjZRkhmeBuK/w+fVvBT98Mcw==
+love-typescript-definitions@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.19.0.tgz#5d6bfe08ecf835c362ed286e7e27ff8a047c6817"
+  integrity sha512-a7H/djrhV5VGFQulsTEVnGHOOf55rXm6dDdgojB0+vtZbMgASXue0l0B7UfVJtxQKrx+Vn1Jd8yqYvgOJa/9oA==
 
 lru-cache@^4.0.1:
   version "4.1.5"
@@ -1838,7 +1838,7 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-lua-types@^2.6.2:
+lua-types@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/lua-types/-/lua-types-2.7.0.tgz#5fad12e9b6c4241587185ec98f057bae6f0b7e65"
   integrity sha512-XxZUJitEDampMjeYbOIUiiPZkYCv6WjZBPBV4/k6u2J/PWGcA79aP9xdJ2QRfixrJyGJ8LW3dw5Qxq2UIGPOzA==
