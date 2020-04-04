@@ -8,14 +8,14 @@ You can click `Use this template` to clone this repo, or download it as a zip.
 
 Requires [Yarn](https://www.npmjs.com/package/yarn) and [LÖVE 2D](https://love2d.org/) within your CLI.
 
-| Command | Description |
-| ------- | ----------- |
-| `yarn` | ⏬ Install dependencies |
-| `yarn build` | 🔨 Build everything |
-| `yarn watch` | 🔨x♾ Re-build Lua files when a TS file is saved |
-| `yarn start` | 🎮 Start the game |
-| `yarn fix:prettier` | 💄 Fixes linting issues |
-| `yarn lint` | 💄 Checks for linting issues in code |
+| Command             | Description                                     |
+| ------------------- | ----------------------------------------------- |
+| `yarn`              | ⏬ Install dependencies                         |
+| `yarn build`        | 🔨 Build everything                             |
+| `yarn watch`        | 🔨x♾ Re-build Lua files when a TS file is saved |
+| `yarn start`        | 🎮 Start the game                               |
+| `yarn fix:prettier` | 💄 Fixes linting issues                         |
+| `yarn lint`         | 💄 Checks for linting issues in code            |
 
 To distribute the game, zip the output in the `game/` directory into a `.love` archive. See the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution) for how to distribute this or check out [love-release](https://github.com/MisterDA/love-release) for a more streamlined process.
 
