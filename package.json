@@ -5,24 +5,33 @@
   "scripts": {
     "start": "love game --console",
     "build": "yarn build:tstl && yarn build:copy",
+    "lint": "yarn lint:prettier && yarn lint:eslint",
+    "docs": "./node_modules/love-typescript-definitions/docs/index.html",
     "build:tstl": "tstl -p tsconfig.json",
     "build:copy": "copyfiles res/* game",
     "build:watch": "tstl -w -p tsconfig.json",
+    "lint:eslint": "eslint -c .eslintrc src/**",
     "lint:prettier": "cross-var prettier \"$npm_package_prettierGlob\" --check",
     "fix:prettier": "cross-var prettier \"$npm_package_prettierGlob\" --check --write"
   },
   "prettier": {
     "printWidth": 120,
     "tabWidth": 4,
+    "arrowParens": "avoid",
     "trailingComma": "es5",
     "endOfLine": "auto"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
     "copyfiles": "^2.1.1",
     "cross-var": "^1.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
     "love-typescript-definitions": "^0.18.0",
     "lua-types": "^2.6.2",
-    "prettier": "^1.19.1",
-    "typescript-to-lua": "^0.31.0"
+    "prettier": "^2.0.2",
+    "typescript-to-lua": "^0.32.0"
   }
 }
