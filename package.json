@@ -38,8 +38,8 @@
     "import-sort-style-module": "^6.0.0",
     "love-typescript-definitions": "^0.20.1",
     "lua-types": "^2.8.0",
-    "prettier": "^2.0.2",
+    "prettier": "^2.2.0",
     "prettier-plugin-import-sort": "^0.0.4",
-    "typescript-to-lua": "^0.32.2"
+    "typescript-to-lua": "^0.36.0"
   }
 }
