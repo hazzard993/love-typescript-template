@@ -8,7 +8,7 @@
     "lint": "yarn lint:prettier && yarn lint:eslint",
     "docs": "./node_modules/love-typescript-definitions/docs/index.html",
     "build:tstl": "tstl -p tsconfig.json",
-    "build:copy": "copyfiles res/* game",
+    "build:copy": "copyfiles --all \"res/**/*\" game",
     "build:watch": "tstl -w -p tsconfig.json",
     "lint:eslint": "eslint -c .eslintrc src/**",
     "lint:prettier": "cross-var prettier \"$npm_package_prettierGlob\" --check",
