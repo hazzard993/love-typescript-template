@@ -5,7 +5,8 @@
     "outDir": "game",
     "types": [
       "lua-types/jit",
-      "love-typescript-definitions"
+      "love-typescript-definitions",
+      "typescript-to-lua/language-extensions"
     ]
   },
   "tstl": {

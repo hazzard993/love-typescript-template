@@ -1241,6 +1241,14 @@ emoji-regex@^8.0.0:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
 
+enhanced-resolve@^5.8.2:
+  version "5.8.2"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.8.2.tgz#15ddc779345cbb73e97c611cd00c01c1e7bf4d8b"
+  integrity sha512-F27oB3WuHDzvR2DOGNTaYy0D5o0cnrv8TeI482VM4kYgQd/FT9lUQwuNsJ0oOHtBUq7eiW5ytqzp7nBFknL+GA==
+  dependencies:
+    graceful-fs "^4.2.4"
+    tapable "^2.2.0"
+
 error-ex@^1.3.1:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.2.tgz#b4ac40648107fdcdcfae242f428bea8a14d4f1bf"
@@ -1525,6 +1533,11 @@ globals@^9.18.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
   integrity sha512-S0nG3CLEQiY/ILxqtztTWH/3iRRdyBLw6KMDxnKMchrtbj2OFmehVh0WUCfW3DUrIgx/qFrJPICrq4Z4sTR9UQ==
 
+graceful-fs@^4.2.4:
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
+  integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
+
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
@@ -1695,10 +1708,10 @@ is-builtin-module@^3.0.0:
   dependencies:
     builtin-modules "^3.0.0"
 
-is-core-module@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.2.0.tgz#97037ef3d52224d85163f5597b2b63d9afed981a"
-  integrity sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==
+is-core-module@^2.2.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.6.0.tgz#d7553b2526fe59b92ba3e40c8df757ec8a709e19"
+  integrity sha512-wShG8vs60jKfPWpF2KZRaAtvt3a20OAn7+IJ6hLPECpSABLcKtFKTTI4ZtH5QcBruBHlq+WsdHWyz0BCZW7svQ==
   dependencies:
     has "^1.0.3"
 
@@ -1844,10 +1857,14 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-love-typescript-definitions@^0.20.1:
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.20.1.tgz#34d72c93d66ca396bf99958401626321543f4591"
-  integrity sha512-h4Of8UZ0bx5Y+KqqTauvucRNo0BXgWe32qCV4gcFjrujI906JMVW0gaQqgPwGz2fnHwtw54qRVACDKD4RypS4A==
+love-typescript-definitions@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/love-typescript-definitions/-/love-typescript-definitions-0.24.0.tgz#461db3e1dad1a94cd850ede90bbd6f00753b0325"
+  integrity sha512-hpZpDpMIhjHDQI4iFgcTCpgnHe511nwSmHQwwcsrWprk2pxSo9x6HLpjJf/CWAmdYJKXZhhG8Iy/JA1CX08fOg==
+
+lovebird@rxi/lovebird:
+  version "0.0.0"
+  resolved "https://codeload.github.com/rxi/lovebird/tar.gz/e84abe7b56a65ccb3ec6288e1955b6d772d41431"
 
 lru-cache@^4.0.1:
   version "4.1.5"
@@ -1857,10 +1874,12 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-lua-types@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/lua-types/-/lua-types-2.8.0.tgz#4514f5c31b7418d3d6af0728023fefb160bc01b0"
-  integrity sha512-FJY32giHIqD/XW1XGkJnl8XotXIJsJ2M42fj9A2UudttWA6orJioToW1OpgPdayTr+S1/oTO7i+hfBY3UVG8Fg==
+lua-types@^2.10.1:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/lua-types/-/lua-types-2.10.1.tgz#e8d0c63bd5ab72351a30afd3b6b08319aca074a3"
+  integrity sha512-Ai7L25I5kHZYGN5C3LALUse7Eus0k/kM9tEO2zwReG2Xuker0c+0e2M4iyfiEvlGOmBc7cDouqJ5lFwyg8JqiQ==
+  dependencies:
+    typescript-to-lua "^0.39.0"
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -2172,11 +2191,11 @@ resolve-from@^4.0.0:
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
 
 resolve@^1.15.1:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.19.0.tgz#1af5bf630409734a067cae29318aac7fa29a267c"
-  integrity sha512-rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
+  integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
   dependencies:
-    is-core-module "^2.1.0"
+    is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
 resolve@^1.3.2, resolve@^1.8.1:
@@ -2378,6 +2397,11 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
+tapable@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.0.tgz#5c373d281d9c672848213d0e037d1c4165ab426b"
+  integrity sha512-FBk4IesMV1rBxX2tfiK8RAmogtWn53puLOQlvO8XuwlgxcYbP4mVPS9Ph4aeamSyyVjOl24aYWAuc8U5kCVwMw==
+
 text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -2447,24 +2471,34 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-typescript-to-lua@^0.36.0:
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-0.36.0.tgz#3055861b2aafe4cc31de49d595a768c379b2b148"
-  integrity sha512-21nXVG74APEhnJTjy32a1gzmSKU8t0wM/c5na+zp4HPxsgAD1TlVN8jwGk4Hma0+ZQ95a2caV8iW/uP0oaxQwQ==
+typescript-to-lua@^0.39.0:
+  version "0.39.6"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-0.39.6.tgz#c9a3ef2bf8a8367bb5961d18c6831c71222fc601"
+  integrity sha512-Yq+XsmFKknMlz9jm1FvTw5B7R4H8lYUly4uwxlR44aT4OFyG9S7mOImrTIF07j414PdrJSQ5dAAhQOBVRqHbMw==
   dependencies:
     resolve "^1.15.1"
     source-map "^0.7.3"
-    typescript ">=4.0.2"
+    typescript "~4.3.2"
 
-typescript@>=4.0.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.2.tgz#6369ef22516fe5e10304aae5a5c4862db55380e9"
-  integrity sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==
+typescript-to-lua@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.0.1.tgz#273b683303dc0a10ed501de1d6419f70d5119860"
+  integrity sha512-j5mb+8HgUUY8hhAKoNy6KUMeamEN1fsTtMvSbPaxmVkWw40pHdLi3umsQG+Qo7wM6IK+RQffFxbIWEjleF+xpw==
+  dependencies:
+    enhanced-resolve "^5.8.2"
+    resolve "^1.15.1"
+    source-map "^0.7.3"
+    typescript "~4.3.5"
 
 typescript@^3.2.4:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+
+typescript@~4.3.2, typescript@~4.3.5:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
 uri-js@^4.2.2:
   version "4.2.2"
