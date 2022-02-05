@@ -16,6 +16,7 @@ Requires [Yarn](https://www.npmjs.com/package/yarn) and [LÖVE 2D](https://love2
 | `yarn start`        | 🎮 Start the game                               |
 | `yarn fix:prettier` | 💄 Fixes linting issues                         |
 | `yarn lint`         | 💄 Checks for linting issues in code            |
+| `yarn docs`         | 📚 Opens up documentation                       |
 
 To distribute the game, zip the output in the `game/` directory into a `.love` archive. See the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution) for how to distribute this or check out [love-release](https://github.com/MisterDA/love-release) for a more streamlined process.
 
@@ -30,7 +31,6 @@ e.g.
 
 -   It is entirely possible to use existing Lua libraries for a LÖVE 2D project within your TypeScript code
 -   [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) preserves some `esnext` behaviour. This means you can use `Array.map` and `new Error(...)`
--   GitHub projects can be imported and be tracked as a dependency with `yarn add [username]/[repo]`
 -   The `copyfiles` command line can be used to copy other needed files into the `game/` directory to compile a game (see scripts)
 -   Index arrays at 0
 -   Lua does not iterate over sparse arrays (arrays with empty values in the middle of them)
