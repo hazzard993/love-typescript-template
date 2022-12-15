@@ -6,41 +6,38 @@ You can click `Use this template` to clone this repo, or download it as a zip.
 
 ## Scripts
 
-Requires [Yarn](https://www.npmjs.com/package/yarn) and [LÖVE 2D](https://love2d.org/) within your CLI.
+Requires [NodeJS](https://nodejs.org/en/download/) and [LÖVE 2D](https://love2d.org/) within your CLI.
 
-| Command             | Description                                     |
-| ------------------- | ----------------------------------------------- |
-| `yarn`              | ⏬ Install dependencies                         |
-| `yarn build`        | 🔨 Build everything                             |
-| `yarn watch`        | 🔨x♾ Re-build Lua files when a TS file is saved |
-| `yarn start`        | 🎮 Start the game                               |
-| `yarn fix:prettier` | 💄 Fixes linting issues                         |
-| `yarn lint`         | 💄 Checks for linting issues in code            |
-| `yarn docs`         | 📚 Opens up documentation                       |
+| Command                | Description                                     |
+| ---------------------- | ----------------------------------------------- |
+| `npm install`          | ⏬ Install dependencies                         |
+| `npm run build`        | 🔨 Build everything                             |
+| `npm run watch`        | 🔨x♾ Re-build Lua files when a TS file is saved |
+| `npm start`            | 🎮 Start the game                               |
+| `npm run fix:prettier` | 💄 Fixes linting issues                         |
+| `npm run lint`         | 💄 Checks for linting issues in code            |
+| `npm run docs`         | 📚 Opens up documentation                       |
 
-To distribute the game, zip the output in the `game/` directory into a `.love` archive. See the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution) for how to distribute this or check out [love-release](https://github.com/MisterDA/love-release) for a more streamlined process.
+To distribute the game, see the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution).
 
-Importable files can be placed in the `res/` directory and referenced them with `res/[resource name]`.
+External files can be placed in `res/` and referenced with `res/<filename>`.
 
 e.g.
 
--   new file: `res/input.txt`
--   main.ts: `love.filesystem.read("res/input.txt")`
+```ts
+love.filesystem.read("res/input.txt");
+```
 
 ### Notes
 
--   It is entirely possible to use existing Lua libraries for a LÖVE 2D project within your TypeScript code
--   [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) preserves some `esnext` behaviour. This means you can use `Array.map` and `new Error(...)`
--   The `copyfiles` command line can be used to copy other needed files into the `game/` directory to compile a game (see scripts)
--   Index arrays at 0
--   Lua does not iterate over sparse arrays (arrays with empty values in the middle of them)
--   love-typescript-definitions comes with documentation accessible at `love-typescript-definitions/docs/index.html`
+- If you're using VS Code, the [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension will automatically format your code for you so you don't need to run `npm run fix:prettier` on every change.
+- Index your arrays at 0 in your source code.
+- Lua does not iterate over sparse arrays (arrays with no values in the middle of them).
 
 ### Links
 
--   [TypeScriptToLua Wiki](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki)
-    -   [Writing Declarations](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Writing-Declarations)
-    -   [Compiler Directives](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Compiler-Directives)
--   [LÖVE 2D Wiki](https://love2d.org/wiki/Main_Page)
--   [LÖVE 2D - Getting Started](https://love2d.org/wiki/Getting_Started)
--   [TypeScript Wiki](https://github.com/Microsoft/TypeScript/wiki)
+- [TypeScriptToLua Wiki](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki)
+  - [Writing Declarations](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Writing-Declarations)
+  - [Compiler Directives](https://github.com/TypeScriptToLua/TypeScriptToLua/wiki/Compiler-Directives)
+- [LÖVE 2D Wiki](https://love2d.org/wiki/Main_Page)
+- [LÖVE 2D - Getting Started](https://love2d.org/wiki/Getting_Started)
