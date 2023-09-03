@@ -1,8 +1,8 @@
 {
   "scripts": {
     "start": "love game --console",
-    "build": "yarn build:tstl && yarn build:copy",
-    "lint": "yarn lint:prettier && yarn lint:eslint",
+    "build": "npm run build:tstl && npm run build:copy",
+    "lint": "npm run lint:prettier && npm run lint:eslint",
     "docs": "./node_modules/love-typescript-definitions/docs/index.html",
     "build:tstl": "tstl -p tsconfig.json",
     "build:copy": "copyfiles --all \"res/**/*\" game",
