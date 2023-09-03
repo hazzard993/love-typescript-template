@@ -8,15 +8,14 @@ You can click `Use this template` to clone this repo, or download it as a zip.
 
 Requires [NodeJS](https://nodejs.org/en/download/) and [LÖVE 2D](https://love2d.org/) within your CLI.
 
-| Command                | Description                                     |
-| ---------------------- | ----------------------------------------------- |
-| `npm install`          | ⏬ Install dependencies                         |
-| `npm run build`        | 🔨 Build everything                             |
+| Command                | Description                                      |
+| ---------------------- | ------------------------------------------------ |
+| `npm install`          | ⏬ Install dependencies                          |
+| `npm run build`        | 🔨 Build everything                              |
 | `npm run watch`        | 🔨x♾ Re-build Lua files when a TS file is saved |
-| `npm start`            | 🎮 Start the game                               |
-| `npm run fix:prettier` | 💄 Fixes linting issues                         |
-| `npm run lint`         | 💄 Checks for linting issues in code            |
-| `npm run docs`         | 📚 Opens up documentation                       |
+| `npm start`            | 🎮 Start the game                                |
+| `npm run fix:prettier` | 💄 Fixes linting issues                          |
+| `npm run lint`         | 💄 Checks for linting issues in code             |
 
 To distribute the game, see the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution).
 
