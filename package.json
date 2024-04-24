@@ -11,15 +11,14 @@
     "fix:prettier": "prettier \"**/*.{js,ts,ym,md}\" --check --write"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-to-lua/language-extensions": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
     "copyfiles": "^2.4.1",
-    "eslint": "^8.52.0",
+    "eslint": "^9.1.1",
     "eslint-config-prettier": "^9.0.0",
-    "love-typescript-definitions": "^11.4.2",
+    "love-typescript-definitions": "^11.4.3",
     "lua-types": "^2.13.1",
-    "prettier": "^3.0.3",
+    "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.3",
-    "typescript-to-lua": "^1.20.1"
+    "typescript-to-lua": "^1.25.1"
   }
 }
