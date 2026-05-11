@@ -6,16 +6,19 @@ You can click `Use this template` to clone this repo, or download it as a zip.
 
 ## Scripts
 
-Requires [NodeJS](https://nodejs.org/en/download/) and [LÖVE 2D](https://love2d.org/) within your CLI.
+Requires [NodeJS](https://nodejs.org/en/download/) and [LÖVE 2D](https://love2d.org/) within your terminal.
 
-| Command                | Description                                      |
-| ---------------------- | ------------------------------------------------ |
-| `npm install`          | ⏬ Install dependencies                          |
-| `npm run build`        | 🔨 Build everything                              |
-| `npm run watch`        | 🔨x♾ Re-build Lua files when a TS file is saved |
-| `npm start`            | 🎮 Start the game                                |
-| `npm run fix:prettier` | 💄 Fixes linting issues                          |
-| `npm run lint`         | 💄 Checks for linting issues in code             |
+| Command                 | Description                                     |
+| ----------------------- | ----------------------------------------------- |
+| `npm install`           | ⏬ Install dependencies                         |
+| `npm run build`         | 🔨 Build everything                             |
+| `npm run build:watch`   | 🔨x♾ Re-build Lua files when a TS file is saved |
+| `npm run build:release` | 📦 Build an executable (requires [pwsh][1])     |
+| `npm start`             | 🎮 Start the game                               |
+| `npm run fix:prettier`  | 💄 Fixes linting issues                         |
+| `npm run lint`          | 💄 Checks for linting issues in code            |
+
+[1]: https://github.com/PowerShell/PowerShell
 
 To distribute the game, see the [game distribution wiki page](https://love2d.org/wiki/Game_Distribution).
 

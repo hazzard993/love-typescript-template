@@ -4,7 +4,7 @@
     "forceConsistentCasingInFileNames": true,
     "lib": ["esnext"],
     "rootDir": "src",
-    "outDir": "game",
+    "outDir": "build/artifact",
     "types": [
       "lua-types/jit",
       "love-typescript-definitions",

@@ -1,11 +1,14 @@
 {
+  "name": "game",
+  "version": "0.0.0",
   "scripts": {
-    "start": "love game --console",
+    "start": "love build/artifact --console",
     "build": "npm run build:tstl && npm run build:copy",
+    "build:release": "npm run build && pwsh ./release.ps1",
     "lint": "npm run lint:prettier && npm run lint:eslint",
     "build:tstl": "tstl -p tsconfig.json",
-    "build:copy": "copyfiles --all \"res/**/*\" game",
-    "build:watch": "tstl -w -p tsconfig.json",
+    "build:copy": "copyfiles --all \"res/**/*\" build/artifact",
+    "build:watch": "npm run build && tstl -w -p tsconfig.json",
     "lint:eslint": "eslint -c .eslintrc src/**",
     "lint:prettier": "prettier \"**/*.{js,ts,ym,md}\" --check",
     "fix:prettier": "prettier \"**/*.{js,ts,ym,md}\" --check --write"
